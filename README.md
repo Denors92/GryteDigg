@@ -5,27 +5,41 @@ En enkel og elegant webapp for å finne din perfekte gryte fra hele verden.
 ## Funksjoner
 
 - **Filter på type**: Kjøtt, Kylling, Fisk, eller Vegetar
-- **Filter på koketid**: Rask, Middels, eller Lang
 - **Filter på matkategori**: Nordisk, Meksikansk, Fransk, Italiensk, eller Asiatisk
-- **16 autentiske oppskrifter**: Klassiske gryteretter fra forskjellige land
-- **Høyprotein**: ~38-45g protein per porsjon
+- **23 autentiske oppskrifter**: Klassiske gryteretter fra hele verden
+- **Høyprotein (kjøtt/fisk/kylling)**: ~38-45g protein per porsjon
+- **Normal protein (vegetar)**: ~18-24g protein per porsjon
 - **Kaloriinfo**: Viser kalorier per porsjon
+- **Koketid**: Vises på hver oppskrift
 - **Responsive design**: Fungerer på mobil og desktop
 - **Minimalistisk stil**: Rent og moderne design
 
 ## Oppskrifter
 
-### Nordiske (12 oppskrifter)
+### Nordiske (11 oppskrifter)
 - **Kjøtt**: Lapskaus, Kalops, Reinsdyrgryte
 - **Kylling**: Hønsegryte med rotgrønnsaker, Kyllinggryte med eple og purre
 - **Fisk**: Fiskesuppe (Bergensk), Laksegryte med dill, Skrei med bacon og løk
-- **Vegetar**: Rotgrønnsaksgryte, Kålgryte med belgfrukter, Soppsgryte med perlebygg, Ertesuppe
+- **Vegetar**: Rotgrønnsaksgryte med kikerter, Kålgryte med belgfrukter, Soppsgryte med perlebygg, Ertesuppe
 
-### Internasjonale (4 oppskrifter)
-- **Meksikansk**: Chili con Carne
-- **Fransk**: Coq au Vin
-- **Italiensk**: Osso Buco
-- **Asiatisk**: Thai Red Curry
+### Meksikanske (3 oppskrifter)
+- **Kjøtt**: Chili con Carne
+- **Fisk**: Pescado a la Veracruzana
+- **Vegetar**: Frijoles Charros (Cowboy-bønner)
+
+### Franske (3 oppskrifter)
+- **Kylling**: Coq au Vin
+- **Fisk**: Bouillabaisse
+- **Vegetar**: Ratatouille
+
+### Italienske (3 oppskrifter)
+- **Kjøtt**: Osso Buco
+- **Vegetar**: Ribollita
+
+### Asiatiske (3 oppskrifter)
+- **Kylling**: Thai Red Curry
+- **Fisk**: Tom Yum (Thai fiskesuppe)
+- **Vegetar**: Mapo Tofu
 
 ## Bruk
 

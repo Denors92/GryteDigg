@@ -1,35 +1,31 @@
-# 🍲 Nordisk Gryte-velger
+# 🍲 Gryte-velger
 
-En enkel og elegant webapp for å finne din perfekte nordiske gryte.
+En enkel og elegant webapp for å finne din perfekte gryte fra hele verden.
 
 ## Funksjoner
 
 - **Filter på type**: Kjøtt, Kylling, Fisk, eller Vegetar
-- **12 autentiske oppskrifter**: Klassiske nordiske gryteretter
+- **Filter på koketid**: Rask, Middels, eller Lang
+- **Filter på matkategori**: Nordisk, Meksikansk, Fransk, Italiensk, eller Asiatisk
+- **16 autentiske oppskrifter**: Klassiske gryteretter fra forskjellige land
+- **Høyprotein**: ~38-45g protein per porsjon
+- **Kaloriinfo**: Viser kalorier per porsjon
 - **Responsive design**: Fungerer på mobil og desktop
-- **Nordisk minimalistisk stil**: Rent og moderne design
+- **Minimalistisk stil**: Rent og moderne design
 
 ## Oppskrifter
 
-### Kjøtt
-- Lapskaus - Klassisk norsk
-- Kalops - Svensk klassiker
-- Reinsdyrgryte - Samisk spesialitet
+### Nordiske (12 oppskrifter)
+- **Kjøtt**: Lapskaus, Kalops, Reinsdyrgryte
+- **Kylling**: Hønsegryte med rotgrønnsaker, Kyllinggryte med eple og purre
+- **Fisk**: Fiskesuppe (Bergensk), Laksegryte med dill, Skrei med bacon og løk
+- **Vegetar**: Rotgrønnsaksgryte, Kålgryte med belgfrukter, Soppsgryte med perlebygg, Ertesuppe
 
-### Kylling
-- Hønsegryte med rotgrønnsaker
-- Kyllinggryte med eple og purre
-
-### Fisk
-- Fiskesuppe (Bergensk)
-- Laksegryte med dill
-- Skrei med bacon og løk
-
-### Vegetar
-- Rotgrønnsaksgryte
-- Kålgryte med belgfrukter
-- Soppsgryte med perlebygg
-- Ertesuppe
+### Internasjonale (4 oppskrifter)
+- **Meksikansk**: Chili con Carne
+- **Fransk**: Coq au Vin
+- **Italiensk**: Osso Buco
+- **Asiatisk**: Thai Red Curry
 
 ## Bruk
 
@@ -43,8 +39,9 @@ Bare åpne `index.html` i nettleseren din. Ingen installasjon nødvendig!
 
 ## Fremtidige forbedringer
 
-- Flere oppskrifter
+- Flere oppskrifter fra forskjellige land
 - Søkefunksjon
 - Favoritter
 - Utskriftsvennlig visning
 - Matvareliste-generator
+- Ernæringsinformasjon per ingrediens

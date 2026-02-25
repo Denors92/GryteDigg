@@ -1,9 +1,11 @@
 // App logic
-let currentFilter = 'alle';
+let currentTypeFilter = 'alle';
+let currentTimeFilter = 'alle';
 
 // DOM elements
 const recipesGrid = document.getElementById('recipes-grid');
-const filterButtons = document.querySelectorAll('.filter-btn');
+const typeFilterButtons = document.querySelectorAll('.type-filter');
+const timeFilterButtons = document.querySelectorAll('.time-filter');
 const modal = document.getElementById('recipe-modal');
 const modalBody = document.getElementById('modal-body');
 const closeBtn = document.querySelector('.close');
@@ -69,24 +71,52 @@ function getTypeName(type) {
 
 // Setup filter buttons
 function setupFilters() {
-    filterButtons.forEach(btn => {
+    // Type filter
+    typeFilterButtons.forEach(btn => {
         btn.addEventListener('click', () => {
             const type = btn.dataset.type;
 
             // Update active button
-            filterButtons.forEach(b => b.classList.remove('active'));
+            typeFilterButtons.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
 
-            // Filter recipes
-            currentFilter = type;
-            if (type === 'alle') {
-                renderRecipes(recipes);
-            } else {
-                const filtered = recipes.filter(r => r.type === type);
-                renderRecipes(filtered);
-            }
+            // Update filter and render
+            currentTypeFilter = type;
+            applyFilters();
         });
     });
+
+    // Time filter
+    timeFilterButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const cookTime = btn.dataset.cooktime;
+
+            // Update active button
+            timeFilterButtons.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            // Update filter and render
+            currentTimeFilter = cookTime;
+            applyFilters();
+        });
+    });
+}
+
+// Apply both filters
+function applyFilters() {
+    let filtered = recipes;
+
+    // Apply type filter
+    if (currentTypeFilter !== 'alle') {
+        filtered = filtered.filter(r => r.type === currentTypeFilter);
+    }
+
+    // Apply time filter
+    if (currentTimeFilter !== 'alle') {
+        filtered = filtered.filter(r => r.cookTime === currentTimeFilter);
+    }
+
+    renderRecipes(filtered);
 }
 
 // Open recipe modal

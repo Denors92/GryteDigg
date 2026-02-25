@@ -1,0 +1,152 @@
+// App logic
+let currentFilter = 'alle';
+
+// DOM elements
+const recipesGrid = document.getElementById('recipes-grid');
+const filterButtons = document.querySelectorAll('.filter-btn');
+const modal = document.getElementById('recipe-modal');
+const modalBody = document.getElementById('modal-body');
+const closeBtn = document.querySelector('.close');
+
+// Initialize app
+function init() {
+    renderRecipes(recipes);
+    setupFilters();
+    setupModal();
+}
+
+// Render recipes to grid
+function renderRecipes(recipesToShow) {
+    recipesGrid.innerHTML = '';
+
+    if (recipesToShow.length === 0) {
+        recipesGrid.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: #7f8c8d;">Ingen oppskrifter funnet</p>';
+        return;
+    }
+
+    recipesToShow.forEach(recipe => {
+        const card = createRecipeCard(recipe);
+        recipesGrid.appendChild(card);
+    });
+}
+
+// Create recipe card element
+function createRecipeCard(recipe) {
+    const card = document.createElement('div');
+    card.className = 'recipe-card';
+    card.onclick = () => openRecipeModal(recipe);
+
+    card.innerHTML = `
+        <div class="recipe-image">
+            ${recipe.emoji}
+        </div>
+        <div class="recipe-content">
+            <span class="recipe-type ${recipe.type}">${getTypeName(recipe.type)}</span>
+            <h3>${recipe.name}</h3>
+            <p class="recipe-description">${recipe.description}</p>
+            <div class="recipe-meta">
+                <span>⏱️ ${recipe.time}</span>
+                <span>👥 ${recipe.servings}</span>
+            </div>
+        </div>
+    `;
+
+    return card;
+}
+
+// Get display name for recipe type
+function getTypeName(type) {
+    const names = {
+        'kjøtt': 'Kjøtt',
+        'kylling': 'Kylling',
+        'fisk': 'Fisk',
+        'vegetar': 'Vegetar'
+    };
+    return names[type] || type;
+}
+
+// Setup filter buttons
+function setupFilters() {
+    filterButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const type = btn.dataset.type;
+
+            // Update active button
+            filterButtons.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            // Filter recipes
+            currentFilter = type;
+            if (type === 'alle') {
+                renderRecipes(recipes);
+            } else {
+                const filtered = recipes.filter(r => r.type === type);
+                renderRecipes(filtered);
+            }
+        });
+    });
+}
+
+// Open recipe modal
+function openRecipeModal(recipe) {
+    modalBody.innerHTML = `
+        <div class="modal-header">
+            <span class="recipe-type ${recipe.type}">${getTypeName(recipe.type)}</span>
+            <h2>${recipe.emoji} ${recipe.name}</h2>
+            <p style="color: #7f8c8d;">${recipe.description}</p>
+            <div class="recipe-meta" style="margin-top: 1rem; font-size: 1rem;">
+                <span>⏱️ ${recipe.time}</span>
+                <span>👥 ${recipe.servings}</span>
+            </div>
+        </div>
+
+        <div class="modal-section">
+            <h3>Ingredienser</h3>
+            <ul class="ingredients-list">
+                ${recipe.ingredients.map(ing => `<li>${ing}</li>`).join('')}
+            </ul>
+        </div>
+
+        <div class="modal-section">
+            <h3>Fremgangsmåte</h3>
+            <ol class="instructions-list">
+                ${recipe.instructions.map(step => `<li>${step}</li>`).join('')}
+            </ol>
+        </div>
+    `;
+
+    modal.style.display = 'block';
+    document.body.style.overflow = 'hidden';
+}
+
+// Setup modal
+function setupModal() {
+    // Close button
+    closeBtn.onclick = closeModal;
+
+    // Click outside modal to close
+    window.onclick = (event) => {
+        if (event.target === modal) {
+            closeModal();
+        }
+    };
+
+    // ESC key to close
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal.style.display === 'block') {
+            closeModal();
+        }
+    });
+}
+
+function closeModal() {
+    modal.style.display = 'none';
+    document.body.style.overflow = 'auto';
+}
+
+// Start app when DOM is ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+} else {
+    init();
+}

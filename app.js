@@ -48,6 +48,7 @@ function createRecipeCard(recipe) {
                 <span>⏱️ ${recipe.time}</span>
                 <span>👥 ${recipe.servings}</span>
                 ${recipe.protein ? `<span>💪 ${recipe.protein}</span>` : ''}
+                ${recipe.calories ? `<span>🔥 ${recipe.calories}</span>` : ''}
             </div>
         </div>
     `;
@@ -99,6 +100,7 @@ function openRecipeModal(recipe) {
                 <span>⏱️ ${recipe.time}</span>
                 <span>👥 ${recipe.servings}</span>
                 ${recipe.protein ? `<span>💪 ${recipe.protein}</span>` : ''}
+                ${recipe.calories ? `<span>🔥 ${recipe.calories}</span>` : ''}
             </div>
         </div>
 

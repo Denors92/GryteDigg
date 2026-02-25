@@ -47,6 +47,7 @@ function createRecipeCard(recipe) {
             <div class="recipe-meta">
                 <span>⏱️ ${recipe.time}</span>
                 <span>👥 ${recipe.servings}</span>
+                ${recipe.protein ? `<span>💪 ${recipe.protein}</span>` : ''}
             </div>
         </div>
     `;
@@ -97,6 +98,7 @@ function openRecipeModal(recipe) {
             <div class="recipe-meta" style="margin-top: 1rem; font-size: 1rem;">
                 <span>⏱️ ${recipe.time}</span>
                 <span>👥 ${recipe.servings}</span>
+                ${recipe.protein ? `<span>💪 ${recipe.protein}</span>` : ''}
             </div>
         </div>
 

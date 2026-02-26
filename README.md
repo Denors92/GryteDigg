@@ -1,117 +1,54 @@
 # 🍲 Gryte-velger
 
-En enkel og elegant webapp for å finne din perfekte gryte fra hele verden.
+En enkel og praktisk webapp for å finne perfekte gryter til hverdags og helg.
 
 ## Funksjoner
 
+- **Filter på tid**: Kveldsmiddag (under 45 min), God tid (45 min - 1,5 timer), eller Helgemiddag (over 1,5 timer)
 - **Filter på type**: Kjøtt, Kylling, Fisk, eller Vegetar
-- **Filter på matkategori**: Nordisk, Meksikansk, Fransk, Italiensk, Asiatisk, Spansk, Indisk, Japansk, Gresk, Marokkansk, Thai, Brasiliansk, Tyrkisk, Koreansk, Etiopisk, Peruansk, Polsk
-- **72 autentiske oppskrifter**: Klassiske gryteretter fra hele verden
-- **Høyprotein (kjøtt/fisk/kylling)**: ~38-45g protein per porsjon
-- **Normal protein (vegetar)**: ~18-24g protein per porsjon
+- **Filter på stil**: Nordisk, Meksikansk, Italiensk, Asiatisk, Indisk
+- **20 praktiske oppskrifter**: Gryter folk faktisk lager med vanlige ingredienser
+- **Høyprotein (kjøtt/fisk/kylling)**: ~32-48g protein per porsjon
+- **Normal protein (vegetar)**: ~16-20g protein per porsjon
 - **Kaloriinfo**: Viser kalorier per porsjon
-- **Koketid**: Vises på hver oppskrift
 - **Responsive design**: Fungerer på mobil og desktop
 - **Minimalistisk stil**: Rent og moderne design
 
 ## Oppskrifter
 
-### Nordiske (11 oppskrifter)
-- **Kjøtt**: Lapskaus, Kalops, Reinsdyrgryte
-- **Kylling**: Hønsegryte med rotgrønnsaker, Kyllinggryte med eple og purre
-- **Fisk**: Fiskesuppe (Bergensk), Laksegryte med dill, Skrei med bacon og løk
-- **Vegetar**: Rotgrønnsaksgryte med kikerter, Kålgryte med belgfrukter, Soppsgryte med perlebygg, Ertesuppe
+### Kjappe hverdagsgryter (under 45 min) - 8 oppskrifter
+- **Kjøtt**: Pølsegryte, Kjøttdeig Taco-gryte
+- **Kylling**: Kylling i Karrisaus, Kylling Tikka Masala
+- **Fisk**: Fiskesuppe, Laks i Kremet Dillsaus
+- **Vegetar**: Vegetar Chili, Pasta Carbonara-gryte (bacon)
 
-### Meksikanske (3 oppskrifter)
-- **Kjøtt**: Chili con Carne
-- **Fisk**: Pescado a la Veracruzana
-- **Vegetar**: Frijoles Charros (Cowboy-bønner)
+### God tid (45 min - 1,5 timer) - 7 oppskrifter
+- **Kjøtt**: Kjøttboller i Saus, Lapskaus
+- **Kylling**: Kylling Cacciatore, Butter Chicken
+- **Fisk**: Fiskesuppe Deluxe
+- **Vegetar**: Ertesuppe, Vegetar Linsebolognese, Grønnsaksgryte med Kikerter
 
-### Franske (3 oppskrifter)
+### Helgegryter (over 1,5 timer) - 5 oppskrifter
+- **Kjøtt**: Oksegryte, Pulled Pork, Chili con Carne
 - **Kylling**: Coq au Vin
-- **Fisk**: Bouillabaisse
-- **Vegetar**: Ratatouille
+- **Vegetar**: (Kun middels-gryter for vegetar)
 
-### Italienske (3 oppskrifter)
-- **Kjøtt**: Osso Buco
-- **Vegetar**: Ribollita
+## Stilkategorier
 
-### Asiatiske (3 oppskrifter)
-- **Kylling**: Thai Red Curry
-- **Fisk**: Tom Yum (Thai fiskesuppe)
-- **Vegetar**: Mapo Tofu
+### Nordisk (8 oppskrifter)
+Klassiske norske og nordiske hverdagsretter med vanlige ingredienser som pølser, fisk, rotgrønnsaker og poteter.
 
-### Spanske (4 oppskrifter)
-- **Kjøtt**: Rabo de Toro (Oksehale-gryte)
-- **Kylling**: Pollo al Chilindron
-- **Fisk**: Marmitako (Baskisk tunfiskgryte)
-- **Vegetar**: Pisto Manchego
+### Meksikansk (3 oppskrifter)
+Enkle tex-mex inspirerte gryter: taco-gryte, chili, og pulled pork. Bruker vanlige krydder som finnes i norske butikker.
 
-### Indiske (4 oppskrifter)
-- **Kjøtt**: Rogan Josh
-- **Kylling**: Chicken Tikka Masala
-- **Fisk**: Goan Fish Curry
-- **Vegetar**: Chana Masala
+### Italiensk (4 oppskrifter)
+Pasta-gryter og tomatsausbaserte retter: carbonara-gryte, cacciatore, coq au vin, linsebolognese.
 
-### Japanske (4 oppskrifter)
-- **Kjøtt**: Nikujaga (Kjøtt og poteter)
-- **Kylling**: Oyakodon (Kylling og egg)
-- **Fisk**: Buri Daikon (Gullfisk og reddik)
-- **Vegetar**: Yasai no Nimono (Grønnsaksgryte)
+### Asiatisk (3 oppskrifter)
+Enkle curry-inspirerte retter med kokosnøttmelk og karripasta som finnes overalt.
 
-### Greske (4 oppskrifter)
-- **Kjøtt**: Stifado (Oksegryte)
-- **Kylling**: Kota Kapama
-- **Fisk**: Psarosoupa (Gresk fiskesuppe)
-- **Vegetar**: Fasolada (Gresk bønnegryte)
-
-### Marokkanske (4 oppskrifter)
-- **Kjøtt**: Tagine med Lam
-- **Kylling**: Djaj Mqualli
-- **Fisk**: Chermoula Fish Tagine
-- **Vegetar**: Loubia
-
-### Thai (4 oppskrifter)
-- **Kjøtt**: Massaman Curry
-- **Kylling**: Gaeng Phed Gai (Rød kyllingcurry)
-- **Fisk**: Tom Kha Gai (Kokosnøtt-fiskesuppe)
-- **Vegetar**: Gaeng Liang (Grønnsakssuppe)
-
-### Brasilianske (4 oppskrifter)
-- **Kjøtt**: Feijoada
-- **Kylling**: Moqueca de Frango
-- **Fisk**: Moqueca de Peixe
-- **Vegetar**: Tutu de Feijão
-
-### Tyrkiske (4 oppskrifter)
-- **Kjøtt**: Kuzu Güveç (Lammegryte)
-- **Kylling**: Tavuk Güveç (Kyllinggryte)
-- **Fisk**: Balık Güveç (Fiskegryte)
-- **Vegetar**: İmam Bayıldı
-
-### Koreanske (4 oppskrifter)
-- **Kjøtt**: Galbi Jjim (Kortribbe med soya)
-- **Kylling**: Dakdoritang (Krydret kyllinggryte)
-- **Fisk**: Saengseon Jjigae (Krydret fiskesuppe)
-- **Vegetar**: Dubu Jjigae (Krydret tofugryte)
-
-### Etiopiske (4 oppskrifter)
-- **Kjøtt**: Siga Tibs (Wokstekt oksekjøtt)
-- **Kylling**: Doro Wat (Krydret kyllinggryte med egg)
-- **Fisk**: Asa Wat (Krydret fiskegryte)
-- **Vegetar**: Misir Wat (Krydret linsesuppe)
-
-### Peruanske (4 oppskrifter)
-- **Kjøtt**: Seco de Carne (Oksegryte med koriander)
-- **Kylling**: Aji de Gallina (Kremet kyllinggryte)
-- **Fisk**: Sudado de Pescado (Fiskesuppe)
-- **Vegetar**: Carapulcra (Poteter og peanøttsaus)
-
-### Polske (4 oppskrifter)
-- **Kjøtt**: Bigos (Jegerstuving)
-- **Kylling**: Kotlet Schabowy z Sosem (Kylling i soppgryte)
-- **Fisk**: Karp w Sosie (Karpe i grå saus)
-- **Vegetar**: Żurek (Rugmelssurdeigssuppe)
+### Indisk (2 oppskrifter)
+Populære indiske retter som tikka masala og butter chicken - med vanlige krydder.
 
 ## Bruk
 
@@ -123,11 +60,11 @@ Bare åpne `index.html` i nettleseren din. Ingen installasjon nødvendig!
 - Ingen avhengigheter
 - Fungerer offline
 
-## Fremtidige forbedringer
+## Filosofi
 
-- Flere oppskrifter fra forskjellige land
-- Søkefunksjon
-- Favoritter
-- Utskriftsvennlig visning
-- Matvareliste-generator
-- Ernæringsinformasjon per ingrediens
+Dette er gryter folk **faktisk lager**:
+- Vanlige ingredienser du får på Rema, Kiwi, og Meny
+- Realistiske koketider
+- Perfekt for travle hverdager OG avslappende helger
+- Ingen eksotiske krydder du bare bruker én gang
+

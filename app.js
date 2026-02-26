@@ -1,11 +1,13 @@
 // App logic
 let currentTypeFilter = 'alle';
 let currentCuisineFilter = 'alle';
+let currentTimeFilter = 'alle';
 
 // DOM elements
 const recipesGrid = document.getElementById('recipes-grid');
 const typeFilterButtons = document.querySelectorAll('.type-filter');
 const cuisineFilterButtons = document.querySelectorAll('.cuisine-filter');
+const timeFilterButtons = document.querySelectorAll('.time-filter');
 const modal = document.getElementById('recipe-modal');
 const modalBody = document.getElementById('modal-body');
 const closeBtn = document.querySelector('.close');
@@ -71,6 +73,21 @@ function getTypeName(type) {
 
 // Setup filter buttons
 function setupFilters() {
+    // Time filter
+    timeFilterButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const time = btn.dataset.time;
+
+            // Update active button
+            timeFilterButtons.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            // Update filter and render
+            currentTimeFilter = time;
+            applyFilters();
+        });
+    });
+
     // Type filter
     typeFilterButtons.forEach(btn => {
         btn.addEventListener('click', () => {
@@ -105,6 +122,11 @@ function setupFilters() {
 // Apply all filters
 function applyFilters() {
     let filtered = recipes;
+
+    // Apply time filter
+    if (currentTimeFilter !== 'alle') {
+        filtered = filtered.filter(r => r.cookTime === currentTimeFilter);
+    }
 
     // Apply type filter
     if (currentTypeFilter !== 'alle') {

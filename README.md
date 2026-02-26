@@ -5,8 +5,8 @@ En enkel og elegant webapp for å finne din perfekte gryte fra hele verden.
 ## Funksjoner
 
 - **Filter på type**: Kjøtt, Kylling, Fisk, eller Vegetar
-- **Filter på matkategori**: Nordisk, Meksikansk, Fransk, Italiensk, Asiatisk, Spansk, Indisk, Japansk, Gresk, Marokkansk, Thai, Brasiliansk, Tyrkisk
-- **56 autentiske oppskrifter**: Klassiske gryteretter fra hele verden
+- **Filter på matkategori**: Nordisk, Meksikansk, Fransk, Italiensk, Asiatisk, Spansk, Indisk, Japansk, Gresk, Marokkansk, Thai, Brasiliansk, Tyrkisk, Koreansk, Etiopisk, Peruansk, Polsk
+- **72 autentiske oppskrifter**: Klassiske gryteretter fra hele verden
 - **Høyprotein (kjøtt/fisk/kylling)**: ~38-45g protein per porsjon
 - **Normal protein (vegetar)**: ~18-24g protein per porsjon
 - **Kaloriinfo**: Viser kalorier per porsjon
@@ -88,6 +88,30 @@ En enkel og elegant webapp for å finne din perfekte gryte fra hele verden.
 - **Kylling**: Tavuk Güveç (Kyllinggryte)
 - **Fisk**: Balık Güveç (Fiskegryte)
 - **Vegetar**: İmam Bayıldı
+
+### Koreanske (4 oppskrifter)
+- **Kjøtt**: Galbi Jjim (Kortribbe med soya)
+- **Kylling**: Dakdoritang (Krydret kyllinggryte)
+- **Fisk**: Saengseon Jjigae (Krydret fiskesuppe)
+- **Vegetar**: Dubu Jjigae (Krydret tofugryte)
+
+### Etiopiske (4 oppskrifter)
+- **Kjøtt**: Siga Tibs (Wokstekt oksekjøtt)
+- **Kylling**: Doro Wat (Krydret kyllinggryte med egg)
+- **Fisk**: Asa Wat (Krydret fiskegryte)
+- **Vegetar**: Misir Wat (Krydret linsesuppe)
+
+### Peruanske (4 oppskrifter)
+- **Kjøtt**: Seco de Carne (Oksegryte med koriander)
+- **Kylling**: Aji de Gallina (Kremet kyllinggryte)
+- **Fisk**: Sudado de Pescado (Fiskesuppe)
+- **Vegetar**: Carapulcra (Poteter og peanøttsaus)
+
+### Polske (4 oppskrifter)
+- **Kjøtt**: Bigos (Jegerstuving)
+- **Kylling**: Kotlet Schabowy z Sosem (Kylling i soppgryte)
+- **Fisk**: Karp w Sosie (Karpe i grå saus)
+- **Vegetar**: Żurek (Rugmelssurdeigssuppe)
 
 ## Bruk
 

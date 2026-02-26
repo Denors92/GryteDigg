@@ -5,8 +5,8 @@ En enkel og elegant webapp for å finne din perfekte gryte fra hele verden.
 ## Funksjoner
 
 - **Filter på type**: Kjøtt, Kylling, Fisk, eller Vegetar
-- **Filter på matkategori**: Nordisk, Meksikansk, Fransk, Italiensk, Asiatisk, Spansk, Indisk, Japansk, Gresk
-- **40 autentiske oppskrifter**: Klassiske gryteretter fra hele verden
+- **Filter på matkategori**: Nordisk, Meksikansk, Fransk, Italiensk, Asiatisk, Spansk, Indisk, Japansk, Gresk, Marokkansk, Thai, Brasiliansk, Tyrkisk
+- **56 autentiske oppskrifter**: Klassiske gryteretter fra hele verden
 - **Høyprotein (kjøtt/fisk/kylling)**: ~38-45g protein per porsjon
 - **Normal protein (vegetar)**: ~18-24g protein per porsjon
 - **Kaloriinfo**: Viser kalorier per porsjon
@@ -64,6 +64,30 @@ En enkel og elegant webapp for å finne din perfekte gryte fra hele verden.
 - **Kylling**: Kota Kapama
 - **Fisk**: Psarosoupa (Gresk fiskesuppe)
 - **Vegetar**: Fasolada (Gresk bønnegryte)
+
+### Marokkanske (4 oppskrifter)
+- **Kjøtt**: Tagine med Lam
+- **Kylling**: Djaj Mqualli
+- **Fisk**: Chermoula Fish Tagine
+- **Vegetar**: Loubia
+
+### Thai (4 oppskrifter)
+- **Kjøtt**: Massaman Curry
+- **Kylling**: Gaeng Phed Gai (Rød kyllingcurry)
+- **Fisk**: Tom Kha Gai (Kokosnøtt-fiskesuppe)
+- **Vegetar**: Gaeng Liang (Grønnsakssuppe)
+
+### Brasilianske (4 oppskrifter)
+- **Kjøtt**: Feijoada
+- **Kylling**: Moqueca de Frango
+- **Fisk**: Moqueca de Peixe
+- **Vegetar**: Tutu de Feijão
+
+### Tyrkiske (4 oppskrifter)
+- **Kjøtt**: Kuzu Güveç (Lammegryte)
+- **Kylling**: Tavuk Güveç (Kyllinggryte)
+- **Fisk**: Balık Güveç (Fiskegryte)
+- **Vegetar**: İmam Bayıldı
 
 ## Bruk
 

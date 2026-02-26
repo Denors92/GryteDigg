@@ -5,8 +5,8 @@ En enkel og elegant webapp for å finne din perfekte gryte fra hele verden.
 ## Funksjoner
 
 - **Filter på type**: Kjøtt, Kylling, Fisk, eller Vegetar
-- **Filter på matkategori**: Nordisk, Meksikansk, Fransk, Italiensk, eller Asiatisk
-- **23 autentiske oppskrifter**: Klassiske gryteretter fra hele verden
+- **Filter på matkategori**: Nordisk, Meksikansk, Fransk, Italiensk, Asiatisk, Spansk, Indisk, Japansk, Gresk
+- **40 autentiske oppskrifter**: Klassiske gryteretter fra hele verden
 - **Høyprotein (kjøtt/fisk/kylling)**: ~38-45g protein per porsjon
 - **Normal protein (vegetar)**: ~18-24g protein per porsjon
 - **Kaloriinfo**: Viser kalorier per porsjon
@@ -40,6 +40,30 @@ En enkel og elegant webapp for å finne din perfekte gryte fra hele verden.
 - **Kylling**: Thai Red Curry
 - **Fisk**: Tom Yum (Thai fiskesuppe)
 - **Vegetar**: Mapo Tofu
+
+### Spanske (4 oppskrifter)
+- **Kjøtt**: Rabo de Toro (Oksehale-gryte)
+- **Kylling**: Pollo al Chilindron
+- **Fisk**: Marmitako (Baskisk tunfiskgryte)
+- **Vegetar**: Pisto Manchego
+
+### Indiske (4 oppskrifter)
+- **Kjøtt**: Rogan Josh
+- **Kylling**: Chicken Tikka Masala
+- **Fisk**: Goan Fish Curry
+- **Vegetar**: Chana Masala
+
+### Japanske (4 oppskrifter)
+- **Kjøtt**: Nikujaga (Kjøtt og poteter)
+- **Kylling**: Oyakodon (Kylling og egg)
+- **Fisk**: Buri Daikon (Gullfisk og reddik)
+- **Vegetar**: Yasai no Nimono (Grønnsaksgryte)
+
+### Greske (4 oppskrifter)
+- **Kjøtt**: Stifado (Oksegryte)
+- **Kylling**: Kota Kapama
+- **Fisk**: Psarosoupa (Gresk fiskesuppe)
+- **Vegetar**: Fasolada (Gresk bønnegryte)
 
 ## Bruk
 

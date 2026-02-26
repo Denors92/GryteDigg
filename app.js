@@ -23,8 +23,14 @@ function init() {
 function renderRecipes(recipesToShow) {
     recipesGrid.innerHTML = '';
 
+    // Update counter
+    const counterElement = document.getElementById('recipe-count');
+    if (counterElement) {
+        counterElement.textContent = recipesToShow.length;
+    }
+
     if (recipesToShow.length === 0) {
-        recipesGrid.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: #7f8c8d;">Ingen oppskrifter funnet</p>';
+        recipesGrid.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: #7f8c8d; font-size: 1.2rem; padding: 3rem;">Ingen oppskrifter funnet med disse filtrene 😢</p>';
         return;
     }
 
